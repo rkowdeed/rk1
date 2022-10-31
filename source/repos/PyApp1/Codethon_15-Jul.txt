@@ -1,0 +1,16 @@
+1. Open https://colab.research.google.com/drive/1Fxe_ZuElv_J59C0U2LXUoaghd7hnUbrs#scrollTo=ZF8zW1OrNH0Y
+
+Use this is online IDE
+
+2. Run the below which would create app.py
+
+%%writefile app.py
+
+import streamlit as st
+
+st.title("Indian Stok Prediction App")
+
+3. Modiy app.py (Refer to app.py file for entire content)
+
+4. Bring up a web app running below command
+!streamlit run app.py & npx localtunnel --port 8501
